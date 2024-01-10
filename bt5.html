@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+var diemVatLy, diemHoaHoc, diemSinhHoc;
+var tongDiem, diemTrungBinh;
+diemVatLy = prompt("Nhập điểm Vật lý:");
+diemHoaHoc = prompt("Nhập điểm Hóa học:");
+diemSinhHoc = prompt("Nhập điểm Sinh học:");
+diemVatLy = parseFloat(diemVatLy);
+diemHoaHoc = parseFloat(diemHoaHoc);
+diemSinhHoc = parseFloat(diemSinhHoc);
+tongDiem = diemVatLy + diemHoaHoc + diemSinhHoc;
+diemTrungBinh = tongDiem / 3;
+console.log("Tổng điểm: " + tongDiem);
+console.log("Điểm trung bình: " + diemTrungBinh);
+    </script>
+</body>
+</html>
